@@ -1,0 +1,9 @@
+repositories:
+  bno055:
+    type: git
+    url: https://github.com/flynneva/bno055/
+    version: 11e4bed075fcef2083535c2e95563f9133254fb5
+  sllidar_ros2:
+    type: git
+    url: https://github.com/Slamtec/sllidar_ros2/
+    version: 4bbeb1a61d08812ea8465eecd0f27030ccff92c4
