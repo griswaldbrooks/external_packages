@@ -6,7 +6,7 @@ on:
     - cron: '17 1 * * *'
 
 jobs:
-  build_humble:
+  build_galactic:
     runs-on: ubuntu-20.04
     steps:
       - uses: jspricke/ros-deb-builder-action@main
