@@ -7,12 +7,12 @@ on:
 
 jobs:
   build_galactic:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
-          DEB_DISTRO: focal
-          ROS_DISTRO: galactic
+          DEB_DISTRO: jammy
+          ROS_DISTRO: focal
           REPOS_FILE: https://raw.githubusercontent.com/griswaldbrooks/external_packages/main/upstream.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
